@@ -16,8 +16,8 @@ public class Main {
             System.out.println("1. plaintext 암호화");
             System.out.println("2. plaintext 복호화");
             System.out.println("3. 키 생성");
-            System.out.println("4. 키 입력 : ");
-            System.out.println("5. 암호화 테스트 : ");
+            System.out.println("4. 키 입력");
+            System.out.println("5. 암호화 테스트");
             System.out.println("6. 종료");
             System.out.print(" 번호 선택 : ");
 
