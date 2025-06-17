@@ -7,12 +7,10 @@ public class Main {
     private static InDecoding processor = new InDecoding();
 
     public static void main(String[] args) {
-        System.out.println("***AES 암호화/복호화 프로그램***");
-
         processor.getkeyManager().printkeyInfo(); //초기 키 정보 출력
 
         while(true) {
-            System.out.println("\n===메뉴===");
+            System.out.println("\n========메뉴========");
             System.out.println("1. plaintext 암호화");
             System.out.println("2. plaintext 복호화");
             System.out.println("3. 키 생성");
